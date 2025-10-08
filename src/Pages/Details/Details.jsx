@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router';
+import { Link, useParams } from 'react-router';
 import useAppdata from '../../hooks/useAppdata';
 import downIcon from '../../assets/icon-downloads.png'
 import starIcon from '../../assets/icon-ratings.png'
 import reviewIcon from '../../assets/icon-review.png'
 import loadLogo from '../../assets/logo.png';
+import appError from '../../assets/App-Error.png';
 import { Bar, BarChart, CartesianGrid, Legend, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { getInstallList, setInstallList } from '../../assets/utility/localMemory';
 import { toast } from 'react-toastify';
@@ -24,6 +25,19 @@ const Details = () => {
     const { apps, loading } = useAppdata();
 
     const app = apps.find(singleApp => singleApp.id === parseInt(id));
+
+    if(!app){
+        return(
+            <>
+                <div className='flex flex-col justify-center items-center gap-5 my-5'>
+                    <img className='py-5 h-[200px]' src={appError} alt="" />
+                    <h2 className='text-2xl font-bold'>OPPS!! APP NOT FOUND</h2>
+                    <p className='text-sm text-gray-600'>The App you are requesting is not found on our system.  please try other apps</p>
+                    <Link to='/' className='btn btn-primary'>Go Back!</Link>
+                </div>
+            </>
+        )
+    }
 
     if (loading) {
         return (
