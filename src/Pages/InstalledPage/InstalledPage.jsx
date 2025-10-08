@@ -7,6 +7,8 @@ import InstalledCard from '../../Components/InstalledCard/InstalledCard';
 
 const InstalledPage = () => {
 
+    const [sort, setSort] = useState(false);
+
     const [installedAppList, setInstalledAppList] = useState();
 
     const { apps, loading } = useAppdata();
@@ -21,12 +23,25 @@ const InstalledPage = () => {
 
     }, [apps])
 
-    // console.log(installedAppList)
+    // console.log(sort)
 
     if (loading) {
         return (
             <div className='w-10 mx-auto my-20'> <img className='h-[50px] animate-spin' src={loadLogo} alt="" /></div>
         )
+    }
+
+    const handleSort = () => {
+
+        if (sort === true) {
+            const sortedList = [...installedAppList].sort((a, b) => a.downloads - b.downloads);
+            setInstalledAppList(sortedList)
+        }
+        if (sort === false) {
+            const sortedList = [...installedAppList].sort((a, b) => b.downloads - a.downloads);
+            setInstalledAppList(sortedList)
+        }
+
     }
 
 
@@ -41,17 +56,17 @@ const InstalledPage = () => {
             <div className='w-[92%] mx-auto flex gap-2 justify-between items-center'>
                 <h3 className='text-xl font-bold'> {installedAppList.length} Apps Found</h3>
 
-                <select defaultValue="Sort by downloads" className="select w-45">
+                <select onChange={handleSort} defaultValue="Sort by downloads" className="select w-45">
                     <option disabled={true}>Sort by downloads</option>
-                    <option>High-Low</option>
-                    <option>Low-High</option>
+                    <option onClick={() => { setSort(true) }}>High-Low</option>
+                    <option onClick={() => { setSort(false) }}>Low-High</option>
                 </select>
             </div>
 
             <div className='w-[92%] mx-auto my-3 pb-5'>
                 <div className='flex flex-col gap-3'>
                     {
-                        installedAppList.map( installedApp => <InstalledCard key={installedApp.id} installedApp={installedApp} installedAppList={installedAppList} setInstalledAppList={setInstalledAppList}></InstalledCard>)
+                        installedAppList.map(installedApp => <InstalledCard key={installedApp.id} installedApp={installedApp} installedAppList={installedAppList} setInstalledAppList={setInstalledAppList}></InstalledCard>)
                     }
                 </div>
             </div>
