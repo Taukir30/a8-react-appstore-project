@@ -5,10 +5,10 @@ import starIcon from '../../assets/icon-ratings.png'
 
 const Card = ({ app }) => {
 
-    console.log(app)
+    // console.log(app)
 
     return (
-        <Link className='shadow hover:shadow-xl hover:-translate-y-1'>
+        <Link to={`/app/${app.id}`} className='shadow hover:shadow-xl hover:-translate-y-1'>
             <div className="card bg-base-100 w-full shadow-sm">
                 <figure className='m-2 border border-gray-200 rounded-md'>
                     <img src={app.image} alt="Shoes" />

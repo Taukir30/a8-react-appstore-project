@@ -11,7 +11,7 @@ const useAppdata = () => {
 
         setLoading(true);
 
-        axios('/appsData.json')
+        axios('../appsData.json')
             .then(data => setApps(data.data))
             .catch(err => setError(err))
             .finally(() => {
@@ -19,7 +19,7 @@ const useAppdata = () => {
                     setLoading(false);
                 }, 500);
             });
-
+            
     }, [])
 
     return { apps, loading, error }
