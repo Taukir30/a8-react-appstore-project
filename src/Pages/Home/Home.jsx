@@ -10,7 +10,7 @@ const Home = () => {
 
     const [featured, setFeatured] = useState();
 
-    const { apps, loading, error} = useAppdata();
+    const { apps, loading} = useAppdata();
 
     useEffect( () => {
 

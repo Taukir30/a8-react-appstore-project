@@ -9,7 +9,7 @@ const Header = () => {
     const menuItems = <>
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/">Apps</NavLink></li>                        
-                        <li><NavLink to="/app">Installation</NavLink></li>
+                        <li><NavLink to="/installed">Installation</NavLink></li>
                     </>
 
     return (
