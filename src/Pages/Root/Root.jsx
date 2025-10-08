@@ -8,9 +8,7 @@ const Root = () => {
         <div>
             <div className='inter bg-[#F5F5F5]'>
                 <Header></Header>
-                <div className='w-[92%] mx-auto'>
-                    <Outlet></Outlet>
-                </div>
+                <Outlet></Outlet>
                 <Footer></Footer>
             </div>
         </div>

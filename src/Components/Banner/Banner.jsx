@@ -16,7 +16,7 @@ const Banner = () => {
                 <Link className='flex gap-2 items-center justify-center rounded border border-gray-300 py-2 px-5 font-semibold hover:bg-[#e2d4ff]' to='https://www.apple.com/app-store/' target='_blank'> <img className='h-[20px]' src={appLogo} alt="" />App Store</Link>
             </div>
             <div className='flex justify-center items-center mt-6'>
-                <img className='h-[350px]' src={bannerPhoto} alt="" />
+                <img className='h-[200px] md:h-[350px]' src={bannerPhoto} alt="" />
             </div>
         </div>
     );

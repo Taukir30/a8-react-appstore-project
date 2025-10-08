@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import { FaGithub } from "react-icons/fa";
 import logo from '../../assets/logo.png'
 
@@ -33,7 +33,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-3">
-                    <button className="btn bg-linear-130 from-[#733CE7] to-[#a96bff] rounded-md px-4 text-white workSans tracking-wide shadow-none"><FaGithub />Contribute</button>
+                    <Link to='https://github.com/Taukir30' target='_blank' className="btn bg-linear-130 from-[#733CE7] to-[#a96bff] rounded-md px-4 text-white workSans tracking-wide shadow-none"><FaGithub />Contribute</Link>
                 </div>
             </div>
         </div>

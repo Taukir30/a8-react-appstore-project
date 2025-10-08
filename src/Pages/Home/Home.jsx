@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import useAppdata from '../../hooks/useAppdata';
 import loadLogo from '../../assets/logo.png';
 import Banner from '../../Components/Banner/Banner';
+import Stats from '../../Components/Stats/Stats';
+import TrendingApps from '../../Components/TrendingApps/TrendingApps';
 
 const Home = () => {
 
@@ -26,7 +28,13 @@ const Home = () => {
 
     return (
         <div>
-            <Banner></Banner>
+            <div className='w-[92%] mx-auto'>
+                <Banner></Banner>
+            </div>
+
+            <Stats></Stats>
+
+            <TrendingApps featured={featured}></TrendingApps>
         </div>
     );
 };
