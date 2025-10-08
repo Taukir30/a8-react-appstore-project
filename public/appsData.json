@@ -1,0 +1,534 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/C3w2z4PK/1-Productivity.jpg",
+    "title": "Productivity Pro",
+    "companyName": "TechSolutions Inc",
+    "description": "This application helps you organize your daily tasks efficiently. It features a clean and intuitive user interface that is easy to navigate. You can sync your data across all your devices seamlessly. The app includes powerful collaboration tools for team projects. Regular updates ensure you always have the latest features.",
+    "size": 45,
+    "reviews": 12450,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      {"name": "1 star", "count": 250},
+      {"name": "2 star", "count": 500},
+      {"name": "3 star", "count": 1000},
+      {"name": "4 star", "count": 3500},
+      {"name": "5 star", "count": 7200}
+    ],
+    "isfeatured": true
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/Wv67cP6j/Finance.jpg",
+    "title": "Finance Tracker",
+    "companyName": "MoneyMasters LLC",
+    "description": "Track all your expenses and income in one convenient location. The app provides detailed charts and reports for better financial insight. It supports multiple currencies for international users. Your data is protected with bank-level encryption security. Customizable categories help you organize spending your way.",
+    "size": 32,
+    "reviews": 8900,
+    "ratingAvg": 4.5,
+    "downloads": 850000,
+    "ratings": [
+      {"name": "1 star", "count": 180},
+      {"name": "2 star", "count": 420},
+      {"name": "3 star", "count": 890},
+      {"name": "4 star", "count": 3100},
+      {"name": "5 star", "count": 4310}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/jPzTLptV/Health.jpg",
+    "title": "Health Companion",
+    "companyName": "Wellness Tech",
+    "description": "Monitor your daily health metrics and fitness goals with precision. The app integrates with popular wearable devices and fitness trackers. Personalized recommendations help you maintain a healthy lifestyle. You can set reminders for medications and doctor appointments. The community feature allows you to connect with health-conscious users.",
+    "size": 78,
+    "reviews": 15600,
+    "ratingAvg": 4.8,
+    "downloads": 1200000,
+    "ratings": [
+      {"name": "1 star", "count": 200},
+      {"name": "2 star", "count": 350},
+      {"name": "3 star", "count": 800},
+      {"name": "4 star", "count": 4200},
+      {"name": "5 star", "count": 10050}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/kzyknxn/Photo-Editor.jpg",
+    "title": "Photo Editor Plus",
+    "companyName": "Creative Studios",
+    "description": "Transform your photos with professional-grade editing tools. The app includes hundreds of filters and effects to choose from. Advanced features allow for precise color correction and retouching. You can work with layers and masks for complex edits. The export options maintain high image quality for all your needs.",
+    "size": 125,
+    "reviews": 23400,
+    "ratingAvg": 4.6,
+    "downloads": 2800000,
+    "ratings": [
+      {"name": "1 star", "count": 350},
+      {"name": "2 star", "count": 700},
+      {"name": "3 star", "count": 1500},
+      {"name": "4 star", "count": 6800},
+      {"name": "5 star", "count": 14050}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/zTk5J3JN/Language.jpg",
+    "title": "Language Master",
+    "companyName": "Global Education",
+    "description": "Learn new languages through interactive lessons and games. The app uses speech recognition to improve your pronunciation skills. Progress tracking helps you stay motivated throughout your journey. You can practice with native speakers through the conversation feature. The curriculum adapts to your learning pace and style automatically.",
+    "size": 89,
+    "reviews": 18700,
+    "ratingAvg": 4.9,
+    "downloads": 3200000,
+    "ratings": [
+      {"name": "1 star", "count": 150},
+      {"name": "2 star", "count": 280},
+      {"name": "3 star", "count": 600},
+      {"name": "4 star", "count": 4200},
+      {"name": "5 star", "count": 13470}
+    ],
+    "isfeatured": true
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/BJCdpdb/Weather.jpg",
+    "title": "Weather Alert",
+    "companyName": "Climate Systems",
+    "description": "Get accurate weather forecasts for any location worldwide. Severe weather alerts keep you informed about dangerous conditions. The radar maps show precipitation and storm movements clearly. You can save multiple locations for quick weather checking. The widget feature displays current conditions on your home screen.",
+    "size": 28,
+    "reviews": 6700,
+    "ratingAvg": 4.3,
+    "downloads": 950000,
+    "ratings": [
+      {"name": "1 star", "count": 300},
+      {"name": "2 star", "count": 550},
+      {"name": "3 star", "count": 1200},
+      {"name": "4 star", "count": 2500},
+      {"name": "5 star", "count": 2150}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/d0CCrQDQ/Musicteacher.jpg",
+    "title": "Music Streamer",
+    "companyName": "Audio Innovations",
+    "description": "Access millions of songs from artists around the world. The recommendation engine suggests music based on your listening habits. You can download songs for offline listening without internet. High-quality audio streaming provides exceptional sound experience. Create and share playlists with friends and the community.",
+    "size": 67,
+    "reviews": 45200,
+    "ratingAvg": 4.7,
+    "downloads": 5800000,
+    "ratings": [
+      {"name": "1 star", "count": 800},
+      {"name": "2 star", "count": 1200},
+      {"name": "3 star", "count": 2500},
+      {"name": "4 star", "count": 12500},
+      {"name": "5 star", "count": 28200}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/8qbZSFp/Recipe.jpg",
+    "title": "Recipe Box",
+    "companyName": "Culinary Arts",
+    "description": "Discover thousands of recipes from various cuisines worldwide. Step-by-step instructions make cooking easy for beginners. You can save your favorite recipes for quick access later. The shopping list feature helps you organize ingredients efficiently. Nutritional information helps you make healthier meal choices.",
+    "size": 42,
+    "reviews": 9800,
+    "ratingAvg": 4.4,
+    "downloads": 760000,
+    "ratings": [
+      {"name": "1 star", "count": 220},
+      {"name": "2 star", "count": 480},
+      {"name": "3 star", "count": 1100},
+      {"name": "4 star", "count": 3200},
+      {"name": "5 star", "count": 4800}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/6JgJVVBY/Travel.jpg",
+    "title": "Travel Planner",
+    "companyName": "Adventure Guides",
+    "description": "Plan your entire trip from flights to accommodations seamlessly. The app compares prices across multiple booking platforms. You can create detailed itineraries with maps and directions. Travel tips from experienced travelers enhance your journey. Offline access ensures you have information without internet connection.",
+    "size": 56,
+    "reviews": 11200,
+    "ratingAvg": 4.6,
+    "downloads": 890000,
+    "ratings": [
+      {"name": "1 star", "count": 180},
+      {"name": "2 star", "count": 350},
+      {"name": "3 star", "count": 900},
+      {"name": "4 star", "count": 3800},
+      {"name": "5 star", "count": 5970}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/qMjy4qyT/Fitness.jpg",
+    "title": "Fitness Coach",
+    "companyName": "Active Life",
+    "description": "Personalized workout plans adapt to your fitness level and goals. Video demonstrations ensure you perform exercises correctly. Progress tracking motivates you to achieve your targets. The app includes nutrition guidance for complete wellness. Community challenges make fitness fun and competitive.",
+    "size": 93,
+    "reviews": 23100,
+    "ratingAvg": 4.8,
+    "downloads": 2100000,
+    "ratings": [
+      {"name": "1 star", "count": 280},
+      {"name": "2 star", "count": 420},
+      {"name": "3 star", "count": 1100},
+      {"name": "4 star", "count": 6800},
+      {"name": "5 star", "count": 14500}
+    ],
+    "isfeatured": true
+  },
+  {
+    "id": 11,
+    "image": "hhttps://i.ibb.co.com/LdSYmW0V/Note.jpg",
+    "title": "Note Taker Pro",
+    "companyName": "Organization Tools",
+    "description": "Capture ideas and information quickly with this versatile app. Rich text formatting options make your notes visually appealing. You can organize notes in notebooks with custom tags. The search function helps you find information instantly. Sync across devices ensures your notes are always accessible.",
+    "size": 38,
+    "reviews": 15600,
+    "ratingAvg": 4.5,
+    "downloads": 1300000,
+    "ratings": [
+      {"name": "1 star", "count": 320},
+      {"name": "2 star", "count": 580},
+      {"name": "3 star", "count": 1300},
+      {"name": "4 star", "count": 5200},
+      {"name": "5 star", "count": 8200}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/B2KXYsTY/Budget.jpg",
+    "title": "Budget Calculator",
+    "companyName": "Financial Freedom",
+    "description": "Create and manage your monthly budget with ease. The app categorizes your spending automatically for better insight. You can set savings goals and track your progress. Bill reminders help you avoid late payment fees. Reports provide visual analysis of your financial habits.",
+    "size": 29,
+    "reviews": 7400,
+    "ratingAvg": 4.2,
+    "downloads": 540000,
+    "ratings": [
+      {"name": "1 star", "count": 280},
+      {"name": "2 star", "count": 620},
+      {"name": "3 star", "count": 1400},
+      {"name": "4 star", "count": 2800},
+      {"name": "5 star", "count": 2300}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/N62FQQ1t/Meditation.jpg",
+    "title": "Meditation Guide",
+    "companyName": "Mindful Living",
+    "description": "Reduce stress and improve focus with guided meditation sessions. The app offers programs for beginners to advanced practitioners. Sleep stories help you relax and fall asleep faster. Progress tracking shows your meditation journey over time. The timer feature allows for unguided meditation practice.",
+    "size": 51,
+    "reviews": 18900,
+    "ratingAvg": 4.9,
+    "downloads": 1700000,
+    "ratings": [
+      {"name": "1 star", "count": 120},
+      {"name": "2 star", "count": 200},
+      {"name": "3 star", "count": 500},
+      {"name": "4 star", "count": 4200},
+      {"name": "5 star", "count": 13880}
+    ],
+    "isfeatured": true
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/1tRWQcxK/News.jpg",
+    "title": "News Aggregator",
+    "companyName": "Info Stream",
+    "description": "Stay informed with news from trusted sources worldwide. Customize your feed based on topics that interest you. The app provides balanced coverage from multiple perspectives. You can save articles to read later when offline. Push notifications alert you to breaking news stories.",
+    "size": 44,
+    "reviews": 8300,
+    "ratingAvg": 4.3,
+    "downloads": 720000,
+    "ratings": [
+      {"name": "1 star", "count": 250},
+      {"name": "2 star", "count": 480},
+      {"name": "3 star", "count": 1100},
+      {"name": "4 star", "count": 3000},
+      {"name": "5 star", "count": 3470}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/5gL0d9Ng/Shopping.jpg",
+    "title": "Shopping Assistant",
+    "companyName": "Retail Solutions",
+    "description": "Compare prices across thousands of online stores instantly. Price drop alerts notify you when items go on sale. You can create wishlists and share them with friends. The app finds coupon codes to save you money automatically. Product reviews help you make informed purchasing decisions.",
+    "size": 61,
+    "reviews": 26700,
+    "ratingAvg": 4.6,
+    "downloads": 2400000,
+    "ratings": [
+      {"name": "1 star", "count": 420},
+      {"name": "2 star", "count": 780},
+      {"name": "3 star", "count": 1800},
+      {"name": "4 star", "count": 8500},
+      {"name": "5 star", "count": 15200}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/RGVy0JF7/Scanner.jpg",
+    "title": "Document Scanner",
+    "companyName": "Office Tools",
+    "description": "Turn your phone into a portable document scanner easily. The app automatically detects edges and enhances image quality. You can convert scanned documents to searchable PDF files. Cloud integration allows seamless storage and sharing. Organizational features help you manage all your scanned documents.",
+    "size": 47,
+    "reviews": 14200,
+    "ratingAvg": 4.7,
+    "downloads": 1800000,
+    "ratings": [
+      {"name": "1 star", "count": 200},
+      {"name": "2 star", "count": 350},
+      {"name": "3 star", "count": 900},
+      {"name": "4 star", "count": 4800},
+      {"name": "5 star", "count": 7950}
+    ],
+    "isfeatured": true
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/wFtXDNJ0/Social.jpg",
+    "title": "Social Connect",
+    "companyName": "Network Platforms",
+    "description": "Stay connected with friends and family through this social app. Share photos, videos, and updates with your network. The messaging feature supports group conversations seamlessly. Privacy controls let you manage who sees your content. Event planning tools help you organize gatherings efficiently.",
+    "size": 82,
+    "reviews": 56300,
+    "ratingAvg": 4.4,
+    "downloads": 6500000,
+    "ratings": [
+      {"name": "1 star", "count": 1200},
+      {"name": "2 star", "count": 1800},
+      {"name": "3 star", "count": 4500},
+      {"name": "4 star", "count": 16800},
+      {"name": "5 star", "count": 32000}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/S4zDp53M/Gaming.jpg",
+    "title": "Gaming Hub",
+    "companyName": "Entertainment Systems",
+    "description": "Access hundreds of games in one convenient application. The app recommends games based on your playing preferences. You can connect with friends and see what they're playing. Achievements and leaderboards add competitive elements. Regular updates bring new games and features frequently.",
+    "size": 134,
+    "reviews": 38900,
+    "ratingAvg": 4.5,
+    "downloads": 4200000,
+    "ratings": [
+      {"name": "1 star", "count": 680},
+      {"name": "2 star", "count": 1200},
+      {"name": "3 star", "count": 2800},
+      {"name": "4 star", "count": 12500},
+      {"name": "5 star", "count": 21720}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/8LXYbm9C/Learning.jpg",
+    "title": "Learning Platform",
+    "companyName": "Education First",
+    "description": "Access courses on various subjects from expert instructors. The app supports different learning styles with multiple content formats. You can download lessons for offline viewing convenience. Interactive quizzes test your knowledge and reinforce learning. Certificates are awarded upon course completion.",
+    "size": 76,
+    "reviews": 22300,
+    "ratingAvg": 4.8,
+    "downloads": 1900000,
+    "ratings": [
+      {"name": "1 star", "count": 180},
+      {"name": "2 star", "count": 320},
+      {"name": "3 star", "count": 900},
+      {"name": "4 star", "count": 6200},
+      {"name": "5 star", "count": 14700}
+    ],
+    "isfeatured": true
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/dwnffkT5/Security.jpg",
+    "title": "Home Security",
+    "companyName": "Smart Home Tech",
+    "description": "Monitor your home security cameras from anywhere in the world. Motion detection alerts notify you of any unusual activity. You can communicate through two-way audio features. The app supports multiple camera feeds simultaneously. Cloud storage keeps your footage safe and accessible.",
+    "size": 58,
+    "reviews": 9600,
+    "ratingAvg": 4.4,
+    "downloads": 830000,
+    "ratings": [
+      {"name": "1 star", "count": 220},
+      {"name": "2 star", "count": 480},
+      {"name": "3 star", "count": 1100},
+      {"name": "4 star", "count": 3200},
+      {"name": "5 star", "count": 4600}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 21,
+    "image": "https://i.ibb.co.com/Q2P5R1W/Calendar.jpg",
+    "title": "Calendar Pro",
+    "companyName": "Time Management",
+    "description": "Organize your schedule with this powerful calendar application. Color coding helps you categorize different types of events. The app syncs with all your existing calendar accounts. Smart suggestions help you find optimal meeting times. Multiple view options provide the perspective you need.",
+    "size": 35,
+    "reviews": 12800,
+    "ratingAvg": 4.6,
+    "downloads": 1100000,
+    "ratings": [
+      {"name": "1 star", "count": 180},
+      {"name": "2 star", "count": 320},
+      {"name": "3 star", "count": 900},
+      {"name": "4 star", "count": 4200},
+      {"name": "5 star", "count": 7200}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 22,
+    "image": "https://i.ibb.co.com/Hph1nCCk/Video.jpg",
+    "title": "Video Creator",
+    "companyName": "Media Productions",
+    "description": "Create professional videos with easy-to-use editing tools. The app includes transitions, effects, and text overlays. You can edit multiple video and audio tracks simultaneously. Export options support various resolutions and formats. The storyboard feature helps plan your video projects effectively.",
+    "size": 147,
+    "reviews": 17800,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      {"name": "1 star", "count": 200},
+      {"name": "2 star", "count": 350},
+      {"name": "3 star", "count": 800},
+      {"name": "4 star", "count": 5200},
+      {"name": "5 star", "count": 11250}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 23,
+    "image": "https://i.ibb.co.com/cS8C7HwR/Book-Reader.jpg",
+    "title": "Book Reader",
+    "companyName": "Digital Library",
+    "description": "Access thousands of books on your mobile device easily. Customizable reading settings provide comfortable viewing experience. You can highlight text and add notes for future reference. The app syncs your progress across all devices automatically. The store feature helps you discover new books to read.",
+    "size": 41,
+    "reviews": 20300,
+    "ratingAvg": 4.8,
+    "downloads": 2600000,
+    "ratings": [
+      {"name": "1 star", "count": 150},
+      {"name": "2 star", "count": 280},
+      {"name": "3 star", "count": 700},
+      {"name": "4 star", "count": 5800},
+      {"name": "5 star", "count": 13370}
+    ],
+    "isfeatured": true
+  },
+  {
+    "id": 24,
+    "image": "https://i.ibb.co.com/27VLZGTC/plant.webp",
+    "title": "Plant Care Guide",
+    "companyName": "Green Thumb Apps",
+    "description": "Identify plants and learn how to care for them properly. The app provides watering schedules based on plant types. You can set reminders for fertilizing and repotting tasks. The community feature lets you ask questions to expert gardeners. Disease identification helps you treat plant problems early.",
+    "size": 39,
+    "reviews": 6700,
+    "ratingAvg": 4.5,
+    "downloads": 580000,
+    "ratings": [
+      {"name": "1 star", "count": 120},
+      {"name": "2 star", "count": 220},
+      {"name": "3 star", "count": 600},
+      {"name": "4 star", "count": 2400},
+      {"name": "5 star", "count": 3360}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 25,
+    "image": "https://i.ibb.co.com/d4YrhcP5/Code.jpg",
+    "title": "Code Editor",
+    "companyName": "Developer Tools",
+    "description": "Write and edit code on your mobile device with this powerful editor. Syntax highlighting makes your code easier to read and debug. The app supports multiple programming languages and frameworks. You can connect to version control systems like Git. The terminal emulator allows command line operations.",
+    "size": 88,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": 720000,
+    "ratings": [
+      {"name": "1 star", "count": 140},
+      {"name": "2 star", "count": 260},
+      {"name": "3 star", "count": 700},
+      {"name": "4 star", "count": 3200},
+      {"name": "5 star", "count": 4600}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 26,
+    "image": "https://i.ibb.co.com/PGKqBvWg/Music.jpg",
+    "title": "Music Teacher",
+    "companyName": "Art Education",
+    "description": "Learn to play musical instruments with interactive lessons. The app listens to your playing and provides feedback. Progress tracking shows your improvement over time. You can learn at your own pace with structured courses. The library includes songs from various genres and difficulty levels.",
+    "size": 112,
+    "reviews": 13400,
+    "ratingAvg": 4.7,
+    "downloads": 980000,
+    "ratings": [
+      {"name": "1 star", "count": 160},
+      {"name": "2 star", "count": 280},
+      {"name": "3 star", "count": 800},
+      {"name": "4 star", "count": 4200},
+      {"name": "5 star", "count": 7960}
+    ],
+    "isfeatured": false
+  },
+  {
+    "id": 27,
+    "image": "https://i.ibb.co.com/1NBHsbd/travel-Planner.webp",
+    "title": "Travel Translator",
+    "companyName": "Global Communication",
+    "description": "Translate text and speech in over 100 languages instantly. The camera feature translates text in real-time through your viewfinder. You can download language packs for offline use. Conversation mode facilitates two-way communication between languages. Cultural tips help you navigate foreign countries respectfully.",
+    "size": 73,
+    "reviews": 15600,
+    "ratingAvg": 4.8,
+    "downloads": 1400000,
+    "ratings": [
+      {"name": "1 star", "count": 120},
+      {"name": "2 star", "count": 240},
+      {"name": "3 star", "count": 600},
+      {"name": "4 star", "count": 4800},
+      {"name": "5 star", "count": 9840}
+    ],
+    "isfeatured": true
+  },
+  {
+    "id": 28,
+    "image": "https://i.ibb.co.com/jPzTLptV/Health.jpg",
+    "title": "Sleep Analyzer",
+    "companyName": "Health Metrics",
+    "description": "Track and analyze your sleep patterns for better rest. The app uses sound analysis to detect sleep cycles accurately. Smart alarms wake you up during light sleep phases. You can record sleep sounds to identify disturbances. Personalized recommendations help improve your sleep quality.",
+    "size": 49,
+    "reviews": 10200,
+    "ratingAvg": 4.4,
+    "downloads": 890000,
+    "ratings": [
+      {"name": "1 star", "count": 200},
+      {"name": "2 star", "count": 420},
+      {"name": "3 star", "count": 1100},
+      {"name": "4 star", "count": 3500},
+      {"name": "5 star", "count": 4980}
+    ],
+    "isfeatured": false
+  }
+]

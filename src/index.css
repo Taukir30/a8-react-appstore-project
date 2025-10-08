@@ -7,3 +7,7 @@
 .inter{
   font-family: "Inter", sans-serif;
 }
+.active{
+  color: #733CE7;
+  text-decoration: underline;
+}
