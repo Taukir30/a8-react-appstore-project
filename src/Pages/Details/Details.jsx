@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import useAppdata from '../../hooks/useAppdata';
 import downIcon from '../../assets/icon-downloads.png'
@@ -6,12 +6,22 @@ import starIcon from '../../assets/icon-ratings.png'
 import reviewIcon from '../../assets/icon-review.png'
 import loadLogo from '../../assets/logo.png';
 import { Bar, BarChart, CartesianGrid, Legend, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { getInstallList, setInstallList } from '../../assets/utility/localMemory';
+import { toast } from 'react-toastify';
 
 
 const Details = () => {
 
+    const [installedApp, setInstalledApp] = useState();
+
+    useEffect(()=>{
+
+        setInstalledApp(getInstallList());
+
+    },[])
+
     const { id } = useParams();
-    const { apps, loading, error } = useAppdata();
+    const { apps, loading } = useAppdata();
 
     const app = apps.find(singleApp => singleApp.id === parseInt(id));
 
@@ -27,8 +37,15 @@ const Details = () => {
 
 
     const handleInstall = () => {
-
+        const newInstalledApps = [...installedApp, app.id]
+        setInstalledApp(newInstalledApps);
+        setInstallList(app.id);
+        toast("Successfully installed !!")
     }
+    
+    // const InstalledApps = getInstallList();
+    // console.log(InstalledApps)
+    
 
     return (
         <div>
@@ -63,7 +80,7 @@ const Details = () => {
 
                         </div>
 
-                        <button onClick={handleInstall} className="btn btn-primary">Install now ({app.size} MB)</button>
+                        <button onClick={handleInstall} disabled={installedApp.includes(parseInt(id))} className={`btn btn-primary hover:bg-[#FF8811] hover:border-[#FF8811]`}>Install now ({app.size} MB)</button>
                     </div>
                 </div>
             </div>

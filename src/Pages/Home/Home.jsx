@@ -5,6 +5,7 @@ import Banner from '../../Components/Banner/Banner';
 import Stats from '../../Components/Stats/Stats';
 import TrendingApps from '../../Components/TrendingApps/TrendingApps';
 
+
 const Home = () => {
 
     const [featured, setFeatured] = useState();
