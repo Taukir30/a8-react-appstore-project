@@ -26,6 +26,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <Link to='/' className="hidden md:flex gap-1 font-bold text-xl text-[#733CE7]"> <img className='h-[30px]' src={logo} alt="" />HERO.IO</Link>
+                    <Link to='/' className="flex md:hidden gap-1 font-bold text-base text-[#733CE7]"> <img className='h-[25px]' src={logo} alt="" /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 items-center gap-3 tracking-wide text-base font-semibold">

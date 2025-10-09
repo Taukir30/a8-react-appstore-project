@@ -39,10 +39,10 @@ const AllAps = () => {
             </div>
 
             <div className=' flex gap-2 justify-between items-center'>
-                <h3 className='text-xl font-bold'> {filteredData.length} Apps Found</h3>
+                <h3 className='text-sm md:text-xl font-bold'> {filteredData.length} Apps Found</h3>
 
-                <label className="input">
-                    <input onChange={ (e) => setSearch(e.target.value) } value={search} type='search' placeholder="URL" />
+                <label className="input w-[150px] md:w-[200px]">
+                    <input onChange={ (e) => setSearch(e.target.value) } value={search} type='search' placeholder="Search" id='search' />
                 </label>
             </div>
 

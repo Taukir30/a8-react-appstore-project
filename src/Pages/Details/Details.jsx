@@ -47,7 +47,7 @@ const Details = () => {
 
     const topReview = app.ratings.reduce((max, item) => item.count > max.count ? item : max);
 
-    console.log(app)
+    // console.log(app)
 
 
     const handleInstall = () => {
