@@ -46,6 +46,10 @@ const AllAps = () => {
                 </label>
             </div>
 
+            <div className={`my-5 ${filteredData.length===0? "block" : "hidden"}`}>
+                <h2 className='text-2xl font-bold'>No App Found...</h2>
+            </div>
+
             <div className={`w-10 mx-auto my-20 ${isloading? "block" : "hidden" }`}> <img className='h-[50px] animate-spin' src={loadLogo} alt="" /></div>
 
             <div className="card_section my-8 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3">
