@@ -7,9 +7,9 @@ import InstalledCard from '../../Components/InstalledCard/InstalledCard';
 
 const InstalledPage = () => {
 
-    const [sort, setSort] = useState(false);
-
     const [installedAppList, setInstalledAppList] = useState();
+    
+    const [sort, setSort] = useState('none');
 
     const { apps, loading } = useAppdata();
 
@@ -31,18 +31,18 @@ const InstalledPage = () => {
         )
     }
 
-    const handleSort = () => {
+    const sortedArray = () => {
 
-        if (sort === true) {
-            const sortedList = [...installedAppList].sort((a, b) => a.downloads - b.downloads);
-            setInstalledAppList(sortedList)
+        if(sort === 'lth'){
+            return   [...installedAppList].sort((a, b) => a.downloads - b.downloads);
+        }else if(sort === 'htl'){
+            return   [...installedAppList].sort((a, b) => b.downloads - a.downloads);
+        }else{
+            return  installedAppList;
         }
-        if (sort === false) {
-            const sortedList = [...installedAppList].sort((a, b) => b.downloads - a.downloads);
-            setInstalledAppList(sortedList)
-        }
-
+        
     }
+
 
 
     return (
@@ -56,17 +56,17 @@ const InstalledPage = () => {
             <div className='w-[92%] mx-auto flex gap-2 justify-between items-center'>
                 <h3 className='text-xl font-bold'> {installedAppList.length} Apps Found</h3>
 
-                <select onChange={handleSort} defaultValue="Sort by downloads" className="select w-45">
-                    <option disabled={true}>Sort by downloads</option>
-                    <option onClick={() => { setSort(true) }}>High-Low</option>
-                    <option onClick={() => { setSort(false) }}>Low-High</option>
+                <select onChange={e => setSort(e.target.value)} value={sort} className="select w-45">
+                    <option value="none">Sort by downloads</option>
+                    <option value="htl">High-Low</option>
+                    <option value="lth">Low-High</option>
                 </select>
             </div>
 
             <div className='w-[92%] mx-auto my-3 pb-5'>
                 <div className='flex flex-col gap-3'>
                     {
-                        installedAppList.map(installedApp => <InstalledCard key={installedApp.id} installedApp={installedApp} installedAppList={installedAppList} setInstalledAppList={setInstalledAppList}></InstalledCard>)
+                        sortedArray().map(installedApp => <InstalledCard key={installedApp.id} installedApp={installedApp} installedAppList={installedAppList} setInstalledAppList={setInstalledAppList}></InstalledCard>)
                     }
                 </div>
             </div>

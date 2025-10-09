@@ -8,7 +8,7 @@ const Header = () => {
 
     const menuItems = <>
                         <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/">Apps</NavLink></li>                        
+                        <li><NavLink to="/allapps">Apps</NavLink></li>                        
                         <li><NavLink to="/installed">Installation</NavLink></li>
                     </>
 
@@ -25,7 +25,7 @@ const Header = () => {
                             {menuItems}
                         </ul>
                     </div>
-                    <a className="hidden md:flex gap-1 font-bold text-xl text-[#733CE7]"> <img className='h-[30px]' src={logo} alt="" />HERO.IO</a>
+                    <Link to='/' className="hidden md:flex gap-1 font-bold text-xl text-[#733CE7]"> <img className='h-[30px]' src={logo} alt="" />HERO.IO</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 items-center gap-3 tracking-wide text-base font-semibold">

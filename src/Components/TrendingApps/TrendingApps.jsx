@@ -14,7 +14,7 @@ const TrendingApps = ({featured}) => {
                 }
             </div>
             <div className='py-6'>
-                <Link className='bg-linear-135 from-[#632EE3] to-[#ab6fff] py-3 px-8 rounded text-xs text-white hover:shadow-xl'>Show All</Link>
+                <Link to='/allapps' className='bg-linear-135 from-[#632EE3] to-[#ab6fff] py-3 px-8 rounded text-xs text-white hover:shadow-xl'>Show All</Link>
             </div>
         </div>
 

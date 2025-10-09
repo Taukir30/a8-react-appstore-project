@@ -94,7 +94,7 @@ const Details = () => {
 
                         </div>
 
-                        <button onClick={handleInstall} disabled={installedApp.includes(parseInt(id))} className={`btn btn-primary hover:bg-[#FF8811] hover:border-[#FF8811]`}>Install now ({app.size} MB)</button>
+                        <button onClick={handleInstall} disabled={installedApp.includes(parseInt(id))} className={`btn btn-primary hover:bg-[#FF8811] hover:border-[#FF8811]`}>{installedApp.includes(parseInt(id)) ? "Installed" : "Install now" } ({app.size} MB)</button>
                     </div>
                 </div>
             </div>
